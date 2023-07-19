@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    height: 100vh;
+    background-color: rgb(240, 242, 245);
+}
+.login-form{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border: 1px solid rgb(218, 217, 217);
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.signup-form {
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    border: 1px solid rgb(218, 217, 217);
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+input[type=text],input[type=email],input[type=password],input[type=tel]{
+    height: 30px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+input::placeholder{
+    font-size: larger;
+}
+button,.login-btn,.signup-btn{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(76, 209, 56);
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    margin-right: 50px;
+    cursor: pointer;
+}
+input[type=submit]{
+    margin-bottom: 30px;
+}
+.login{
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup-btn{
+    margin-left: 3px;
+    background-color: rgb(66, 183, 42);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.create-account{
+    background-color: rgb(66, 183, 42);
+    margin-top: 30px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+p{
+    margin-top: 10px;
+    font-size: large;
+}
+a{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.buttons{
+    margin-top: 15px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
